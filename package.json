@@ -1,0 +1,19 @@
+{
+  "name": "telegraf-plugin-tgan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YouTwitFace/telegraf-plugin-tgan.git"
+  },
+  "author": "YouTwitFace <contact@lungers.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YouTwitFace/telegraf-plugin-tgan/issues"
+  },
+  "homepage": "https://github.com/YouTwitFace/telegraf-plugin-tgan#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "node-fetch": "^2.6.0"
+  }
+}
