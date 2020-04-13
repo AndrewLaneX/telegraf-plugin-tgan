@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 
 const apiUrl = 'https://shrtco.de/tgan/api';
 
-module.exports = (ctx, next) => {
+module.exports = () => (ctx, next) => {
     next();
 
     if (ctx.from) {
