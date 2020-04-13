@@ -14,6 +14,7 @@ module.exports = () => (ctx, next) => {
 
         fetch(`${apiUrl}?${params}`)
             .then(res => res.json())
-            .then(res => debug(res.ok ? res.message : `error: ${res.error}`));
+            .then(res => debug(res.ok ? res.message : `error: ${res.error}`))
+            .catch(err => debug('error:', err));
     }
 };
